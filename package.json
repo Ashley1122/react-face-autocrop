@@ -1,0 +1,51 @@
+{
+  "type": "module",
+  "name": "react-face-autocrop",
+  "version": "1.0.0",
+  "description": "React library for automatic face detection and cropping using face-api.js with passport-style cropping capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "models",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "face-detection",
+    "autocrop",
+    "face-api",
+    "react",
+    "image-crop",
+    "passport-photo",
+    "face-recognition"
+  ],
+  "author": "Ashley Sangma",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "cropperjs": "^1.6.1",
+    "face-api.js": "^0.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashley1122/react-face-autocrop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashley1122/react-face-autocrop/issues"
+  },
+  "homepage": "https://github.com/ashley1122/react-face-autocrop#readme"
+}
