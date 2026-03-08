@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useFaceAutoCrop, ImageCropper, loadFaceApiModels } from 'react-face-autocrop';
-import 'cropperjs/dist/cropper.css';
 
 const MODEL_URL = 'https://ashley1122.github.io/face-api-models/models/';
 

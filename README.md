@@ -18,6 +18,7 @@ npm install react-face-autocrop
 ## Usage
 
 
+
 ```tsx
 import { useFaceAutoCrop, loadFaceApiModels, ImageCropper } from 'react-face-autocrop';
 
@@ -31,18 +32,20 @@ const { autoCrop, loading, error } = useFaceAutoCrop({
   zoomFactor: 1.2, // Optional: how much to zoom in on the face (default 1)
 });
 
-// Manual cropping
+// Manual cropping (with custom size)
 <ImageCropper
   image={...}
   onCrop={...}
   onCancel={...}
   aspectRatio={1} // Optional: same as above
-  zoomFactor={1.2} // Optional: initial zoom for manual crop
+  cropperStyles={{ width: '1000px', height: '700px' }} // Optional: set cropper window size
 />
 ```
 
+
 **Options:**
 - `aspectRatio`: Set the crop aspect ratio (e.g. 1 for square, 16/9, 4/3, etc.).
+- `cropperStyles`: Set the width, height, or any CSS for the cropper window (e.g. `{ width: '1000px', height: '700px' }`).
 - `zoomFactor`: Zoom in/out on the face (auto) or set initial zoom (manual). Default is 1.
 
 **The cropped image is returned as a base64 string.**

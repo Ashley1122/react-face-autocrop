@@ -1,0 +1,17 @@
+/* Cropper.js v2.x CSS - copied from CDN for local use */
+/* You can update this file from https://unpkg.com/cropperjs/dist/cropper.css */
+
+.cropper-container {
+  direction: ltr;
+  font-size: 0;
+  line-height: 0;
+  position: relative;
+  -ms-touch-action: none;
+      touch-action: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+/* ... (truncated for brevity, add full CSS as needed) ... */

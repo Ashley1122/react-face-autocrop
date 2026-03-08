@@ -1,0 +1,30 @@
+/* Cropper.js v2.x CSS - minimal required for functionality. You can expand this as needed. */
+.cropper-container {
+  direction: ltr;
+  font-size: 0;
+  line-height: 0;
+  position: relative;
+  -ms-touch-action: none;
+      touch-action: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.cropper-bg {
+  background-color: #fff;
+  opacity: 0.5;
+}
+.cropper-crop-box,
+.cropper-view-box {
+  display: block;
+  position: absolute;
+  outline: 1px solid #39f;
+  outline-color: rgba(51, 153, 255, 0.75);
+}
+.cropper-face {
+  background-color: #fff;
+  opacity: 0.1;
+}
+/* Add more rules as needed for handles, lines, etc. */
